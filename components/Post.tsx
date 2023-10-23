@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { BlogPost } from "../typings";
 import { urlFor } from "../sanity";
 
 function Post({ _id, slug, title, description, author, mainImage }: BlogPost) {

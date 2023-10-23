@@ -1,4 +1,4 @@
-export interface BlogPost {
+interface BlogPost {
 	_id: string;
 	_createdAt?: string;
 	title: string;
@@ -16,4 +16,5 @@ export interface BlogPost {
 		current: string;
 	};
 	body?: [object];
+	comments?: { comment: string; name: string; _id: string }[];
 }

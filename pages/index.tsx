@@ -2,7 +2,6 @@ import Banner from "@/components/Banner";
 import Header from "@/components/Header";
 import Head from "next/head";
 import { sanityClient } from "../sanity";
-import { BlogPost } from "../typings";
 import Post from "@/components/Post";
 
 interface Props {
